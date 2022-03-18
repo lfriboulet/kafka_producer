@@ -50,15 +50,20 @@ Cette étape est nécessaire si les classes Java pour générer ne sont pas pré
 
     
     mvn clean compile
+
+
 3. Créer le jar
 
 
     mvn package
 
+
 4. Lancer l'application
 
 
     java - jar kafka-producer-1.0-SNAPSHOT.jar
+
+
 # Ressources
 
 https://www.slideshare.net/ConfluentInc/common-issues-with-apache-kafka-producer
